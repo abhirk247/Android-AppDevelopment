@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void btn(View v){
 
+        findViewById(R.id.button1).setEnabled(false);
+        ((Button)findViewById(R.id.button1)).setText("New new Disable");
+
+        /*
       View myView=  findViewById(R.id.button1);
       myView.setEnabled(false);
       Button button=(Button) myView;
